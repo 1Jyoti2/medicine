@@ -1,0 +1,14 @@
+# Prescription OCR Requirements
+
+# OCR Engine
+easyocr>=1.7.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Scientific Computing
+numpy>=1.24.0
+
+# Optional: For advanced preprocessing
+scikit-image>=0.21.0

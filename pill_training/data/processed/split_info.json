@@ -1,0 +1,297 @@
+{
+  "random_seed": 42,
+  "total_images": 20,
+  "num_classes": 20,
+  "classes": [
+    "Amlodipine",
+    "Amoxicillin",
+    "Atorvastatin",
+    "Ciprofloxacin",
+    "Clozaril",
+    "Divalproex_ER",
+    "Hydrochlorothiazide",
+    "Levothyroxine",
+    "Lisinopril",
+    "Metformin_ER",
+    "Metoprolol_Tartrate",
+    "Omeprazole_DR",
+    "Pill_Ref_1450",
+    "Pill_Ref_310",
+    "Pill_Ref_394",
+    "Pill_Ref_735",
+    "Prednisone",
+    "Sertraline",
+    "Starlix",
+    "Warfarin"
+  ],
+  "class_to_idx": {
+    "Amlodipine": 0,
+    "Amoxicillin": 1,
+    "Atorvastatin": 2,
+    "Ciprofloxacin": 3,
+    "Clozaril": 4,
+    "Divalproex_ER": 5,
+    "Hydrochlorothiazide": 6,
+    "Levothyroxine": 7,
+    "Lisinopril": 8,
+    "Metformin_ER": 9,
+    "Metoprolol_Tartrate": 10,
+    "Omeprazole_DR": 11,
+    "Pill_Ref_1450": 12,
+    "Pill_Ref_310": 13,
+    "Pill_Ref_394": 14,
+    "Pill_Ref_735": 15,
+    "Prednisone": 16,
+    "Sertraline": 17,
+    "Starlix": 18,
+    "Warfarin": 19
+  },
+  "idx_to_class": {
+    "0": "Amlodipine",
+    "1": "Amoxicillin",
+    "2": "Atorvastatin",
+    "3": "Ciprofloxacin",
+    "4": "Clozaril",
+    "5": "Divalproex_ER",
+    "6": "Hydrochlorothiazide",
+    "7": "Levothyroxine",
+    "8": "Lisinopril",
+    "9": "Metformin_ER",
+    "10": "Metoprolol_Tartrate",
+    "11": "Omeprazole_DR",
+    "12": "Pill_Ref_1450",
+    "13": "Pill_Ref_310",
+    "14": "Pill_Ref_394",
+    "15": "Pill_Ref_735",
+    "16": "Prednisone",
+    "17": "Sertraline",
+    "18": "Starlix",
+    "19": "Warfarin"
+  },
+  "ndc_metadata": {
+    "0078-0489": {
+      "class_name": "Clozaril",
+      "generic_name": "Clozapine",
+      "strength": "100 mg",
+      "form": "Tablet",
+      "manufacturer": "Novartis Pharmaceuticals",
+      "description": "Yellow round tablet used for treatment-resistant schizophrenia."
+    },
+    "0591-5786": {
+      "class_name": "Divalproex_ER",
+      "generic_name": "Divalproex Sodium Extended-Release",
+      "strength": "500 mg",
+      "form": "Tablet",
+      "manufacturer": "Actavis Pharma",
+      "description": "Oval white film-coated tablet for seizure and bipolar disorder."
+    },
+    "12634-604": {
+      "class_name": "Ciprofloxacin",
+      "generic_name": "Ciprofloxacin Hydrochloride",
+      "strength": "500 mg",
+      "form": "Tablet",
+      "manufacturer": "Aurobindo Pharma",
+      "description": "White oblong film-coated antibiotic tablet."
+    },
+    "35356-718": {
+      "class_name": "Metformin_ER",
+      "generic_name": "Metformin Hydrochloride Extended-Release",
+      "strength": "500 mg",
+      "form": "Tablet",
+      "manufacturer": "Lake Erie Medical",
+      "description": "White round extended-release tablet for type 2 diabetes."
+    },
+    "48433-316": {
+      "class_name": "Amoxicillin",
+      "generic_name": "Amoxicillin Trihydrate",
+      "strength": "500 mg",
+      "form": "Capsule",
+      "manufacturer": "Ranbaxy Pharmaceuticals",
+      "description": "Pink and blue capsule for bacterial infections."
+    },
+    "50436-2948": {
+      "class_name": "Hydrochlorothiazide",
+      "generic_name": "Hydrochlorothiazide",
+      "strength": "25 mg",
+      "form": "Tablet",
+      "manufacturer": "Unit Dose Services",
+      "description": "Light yellow round scored tablet for hypertension and edema."
+    },
+    "55154-7271": {
+      "class_name": "Lisinopril",
+      "generic_name": "Lisinopril",
+      "strength": "20 mg",
+      "form": "Tablet",
+      "manufacturer": "Cardinal Health",
+      "description": "Round pink tablet for high blood pressure and heart failure."
+    },
+    "60760-266": {
+      "class_name": "Atorvastatin",
+      "generic_name": "Atorvastatin Calcium",
+      "strength": "20 mg",
+      "form": "Tablet",
+      "manufacturer": "St. Marys Medical Park",
+      "description": "White elliptical tablet for cholesterol management."
+    },
+    "61786-419": {
+      "class_name": "Omeprazole_DR",
+      "generic_name": "Omeprazole Delayed-Release",
+      "strength": "20 mg",
+      "form": "Capsule",
+      "manufacturer": "Bryant Ranch Prepack",
+      "description": "Delayed-release capsule for GERD and acid reflux."
+    },
+    "61919-317": {
+      "class_name": "Amlodipine",
+      "generic_name": "Amlodipine Besylate",
+      "strength": "10 mg",
+      "form": "Tablet",
+      "manufacturer": "Direct_Rx",
+      "description": "White octagon-shaped tablet for hypertension and angina."
+    },
+    "68084-344": {
+      "class_name": "Levothyroxine",
+      "generic_name": "Levothyroxine Sodium",
+      "strength": "50 mcg",
+      "form": "Tablet",
+      "manufacturer": "American Health Packaging",
+      "description": "Round white scored tablet for hypothyroidism."
+    },
+    "68084-520": {
+      "class_name": "Metoprolol_Tartrate",
+      "generic_name": "Metoprolol Tartrate",
+      "strength": "50 mg",
+      "form": "Tablet",
+      "manufacturer": "American Health Packaging",
+      "description": "Round pink scored tablet for high blood pressure and heart rate."
+    },
+    "69189-0468": {
+      "class_name": "Sertraline",
+      "generic_name": "Sertraline Hydrochloride",
+      "strength": "50 mg",
+      "form": "Tablet",
+      "manufacturer": "Bryant Ranch Prepack",
+      "description": "Blue capsule-shaped tablet for depression, anxiety, and OCD."
+    },
+    "1450": {
+      "class_name": "Pill_Ref_1450",
+      "generic_name": "Pharmaceutical Reference Sample 1450",
+      "strength": "Standard Unit",
+      "form": "Tablet",
+      "manufacturer": "ePillID Dataset Sample",
+      "description": "Reference laboratory photograph of pharmaceutical pill."
+    },
+    "310": {
+      "class_name": "Pill_Ref_310",
+      "generic_name": "Pharmaceutical Reference Sample 310",
+      "strength": "Standard Unit",
+      "form": "Tablet",
+      "manufacturer": "ePillID Dataset Sample",
+      "description": "Reference laboratory photograph of pharmaceutical pill."
+    },
+    "394": {
+      "class_name": "Pill_Ref_394",
+      "generic_name": "Pharmaceutical Reference Sample 394",
+      "strength": "Standard Unit",
+      "form": "Tablet",
+      "manufacturer": "ePillID Dataset Sample",
+      "description": "Reference laboratory photograph of pharmaceutical pill."
+    },
+    "735": {
+      "class_name": "Pill_Ref_735",
+      "generic_name": "Pharmaceutical Reference Sample 735",
+      "strength": "Standard Unit",
+      "form": "Tablet",
+      "manufacturer": "ePillID Dataset Sample",
+      "description": "Reference laboratory photograph of pharmaceutical pill."
+    },
+    "00078-0521-15": {
+      "class_name": "Starlix",
+      "generic_name": "Nateglinide",
+      "strength": "120 mg",
+      "form": "Tablet",
+      "manufacturer": "Novartis Pharmaceuticals",
+      "description": "Red round film-coated tablet for type 2 diabetes management."
+    },
+    "00555-0513-02": {
+      "class_name": "Warfarin",
+      "generic_name": "Warfarin Sodium",
+      "strength": "5 mg",
+      "form": "Tablet",
+      "manufacturer": "Barr Laboratories",
+      "description": "Peach round scored anticoagulant blood-thinner tablet."
+    },
+    "00603-5771-21": {
+      "class_name": "Prednisone",
+      "generic_name": "Prednisone",
+      "strength": "20 mg",
+      "form": "Tablet",
+      "manufacturer": "Par Pharmaceutical",
+      "description": "Peach round scored corticosteroid tablet for inflammation."
+    }
+  },
+  "splits": {
+    "train": {
+      "count": 12,
+      "images": [
+        "1450.jpg",
+        "68084-344_0_1.jpg",
+        "61786-419_0_0.jpg",
+        "310.jpg",
+        "0591-5786_0_1.jpg",
+        "00555-0513-02_PART_1_OF_1_CHAL10_SF_D92B6CFB.jpg",
+        "48433-316_0_0.jpg",
+        "735.jpg",
+        "68084-520_0_1.jpg",
+        "61919-317_0_1.jpg",
+        "55154-7271_0_0.jpg",
+        "394.jpg"
+      ],
+      "classes": [
+        "Amlodipine",
+        "Amoxicillin",
+        "Divalproex_ER",
+        "Levothyroxine",
+        "Lisinopril",
+        "Metoprolol_Tartrate",
+        "Omeprazole_DR",
+        "Pill_Ref_1450",
+        "Pill_Ref_310",
+        "Pill_Ref_394",
+        "Pill_Ref_735",
+        "Warfarin"
+      ]
+    },
+    "val": {
+      "count": 4,
+      "images": [
+        "12634-604_0_0.jpg",
+        "69189-0468_0_0.jpg",
+        "00078-0521-15_PART_1_OF_1_CHAL10_SB_E51D72AB.jpg",
+        "50436-2948_0_0.jpg"
+      ],
+      "classes": [
+        "Ciprofloxacin",
+        "Hydrochlorothiazide",
+        "Sertraline",
+        "Starlix"
+      ]
+    },
+    "test": {
+      "count": 4,
+      "images": [
+        "0078-0489_0_1.jpg",
+        "35356-718_0_0.jpg",
+        "60760-266_0_0.jpg",
+        "00603-5771-21_PART_1_OF_1_CHAL10_SB_38231C78.jpg"
+      ],
+      "classes": [
+        "Atorvastatin",
+        "Clozaril",
+        "Metformin_ER",
+        "Prednisone"
+      ]
+    }
+  },
+  "leakage_detected": false
+}

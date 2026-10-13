@@ -1,0 +1,47 @@
+================================================================================
+FINAL MODEL EVALUATION - CLASSIFICATION REPORT
+================================================================================
+
+Evaluation Date: 2026-09-21 11:57:42
+
+OVERALL METRICS
+--------------------------------------------------------------------------------
+Test Accuracy: 0.9704 (97.04%)
+Correct Predictions: 164/169
+Incorrect Predictions: 5/169
+Number of Classes: 6
+
+MACRO AVERAGES (unweighted)
+--------------------------------------------------------------------------------
+Precision: 0.9666
+Recall: 0.9733
+F1-Score: 0.9690
+
+WEIGHTED AVERAGES (by class support)
+--------------------------------------------------------------------------------
+Precision: 0.9724
+Recall: 0.9704
+F1-Score: 0.9705
+
+PER-CLASS METRICS
+--------------------------------------------------------------------------------
+Class                      Precision     Recall   F1-Score    Support
+--------------------------------------------------------------------------------
+Centella Asiatica             0.9143     1.0000     0.9552         32
+Coccinia Grandis              1.0000     0.9333     0.9655         30
+Eclipta Prostrata             1.0000     0.9375     0.9677         32
+Mikania Micrantha             0.9167     1.0000     0.9565         11
+Murraya koenigii              0.9688     0.9688     0.9688         32
+Stephania Japonica            1.0000     1.0000     1.0000         32
+
+================================================================================
+CONFUSION MATRIX (Raw Counts)
+================================================================================
+
+                    Centella AsiatiCoccinia GrandiEclipta ProstraMikania MicrantMurraya koenigiStephania Japon
+Centella Asiatica                32              0              0              0              0              0
+Coccinia Grandis                  2             28              0              0              0              0
+Eclipta Prostrata                 1              0             30              0              1              0
+Mikania Micrantha                 0              0              0             11              0              0
+Murraya koenigii                  0              0              0              1             31              0
+Stephania Japonica                0              0              0              0              0             32

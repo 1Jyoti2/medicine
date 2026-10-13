@@ -1,0 +1,50 @@
+================================================================================
+TRAINING SUMMARY REPORT (PyTorch)
+================================================================================
+
+Training Date: 2026-09-21 11:39:14
+Model Type: mobilenet_v2
+Number of Classes: 6
+Image Size: (224, 224)
+Batch Size: 32
+Epochs Trained: 35
+Random Seed: 42
+Device: cpu
+
+--------------------------------------------------------------------------------
+DATASET SIZES
+--------------------------------------------------------------------------------
+Training samples: 763
+Validation samples: 162
+Test samples: 169
+
+--------------------------------------------------------------------------------
+BEST VALIDATION PERFORMANCE
+--------------------------------------------------------------------------------
+Best Val Accuracy: 0.9938
+Best Val Loss: 0.0472
+
+--------------------------------------------------------------------------------
+TEST SET PERFORMANCE
+--------------------------------------------------------------------------------
+Test Accuracy: 0.9704 (97.04%)
+Test Loss: 0.1190
+
+--------------------------------------------------------------------------------
+CLASS MAPPING
+--------------------------------------------------------------------------------
+  0: Centella Asiatica
+  1: Coccinia Grandis
+  2: Eclipta Prostrata
+  3: Mikania Micrantha
+  4: Murraya koenigii
+  5: Stephania Japonica
+
+================================================================================
+OUTPUT FILES
+================================================================================
+  Best model: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\best_model.pth
+  Final model: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\final_model.pth
+  Configuration: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\model_config.json
+  Training plot: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\training_history.png
+  Test results: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\test_results.json

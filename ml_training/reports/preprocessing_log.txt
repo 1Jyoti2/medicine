@@ -1,0 +1,64 @@
+================================================================================
+DATASET PREPROCESSING REPORT
+================================================================================
+
+Generated: 2026-09-19T13:46:47.336146
+Source directory: C:\Users\Harshu\Desktop\Medicine\datasets\Original Image\Leaf_Dataset_Original
+Output directory: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed
+
+--------------------------------------------------------------------------------
+IMAGE VALIDATION
+--------------------------------------------------------------------------------
+Total images processed: 1094
+Valid images: 1094 (100.0%)
+Invalid images: 0
+
+See C:\Users\Harshu\Desktop\Medicine\ml_training\reports\corrupted_files.txt for details.
+
+--------------------------------------------------------------------------------
+DUPLICATE DETECTION
+--------------------------------------------------------------------------------
+Total images analyzed: 1094
+Duplicate pairs found: 0
+Files involved in duplicates: set()
+Unique images: 1094
+
+See C:\Users\Harshu\Desktop\Medicine\ml_training\reports\duplicate_files.txt for details.
+
+--------------------------------------------------------------------------------
+DATASET STATISTICS
+--------------------------------------------------------------------------------
+Total classes: 6
+Total images: 1094
+
+Class distribution:
+  - Centella Asiatica                 207 ( 18.9%)
+  - Coccinia Grandis                  200 ( 18.3%)
+  - Eclipta Prostrata                 209 ( 19.1%)
+  - Mikania Micrantha                  68 (  6.2%)
+  - Murraya koenigii                  204 ( 18.6%)
+  - Stephania Japonica                206 ( 18.8%)
+
+⚠️  Imbalanced classes:
+  - Mikania Micrantha
+
+See C:\Users\Harshu\Desktop\Medicine\ml_training\reports\dataset_statistics.json for complete statistics.
+
+--------------------------------------------------------------------------------
+DATASET SPLITTING
+--------------------------------------------------------------------------------
+Training set: 763 images (70%)
+Validation set: 162 images (15%)
+Test set: 169 images (15%)
+Random seed: 42
+
+Output directory: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed
+
+================================================================================
+PREPROCESSING COMPLETE
+================================================================================
+Steps completed: validation, duplicate_detection, statistics, splitting
+
+Class mapping saved to: C:\Users\Harshu\Desktop\Medicine\ml_training\models\leaf_class_mapping.json
+Statistics saved to: C:\Users\Harshu\Desktop\Medicine\ml_training\reports\dataset_statistics.json
+Processed dataset: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed

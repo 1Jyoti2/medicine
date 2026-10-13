@@ -1,0 +1,38 @@
+{
+  "model_type": "mobilenet_v2",
+  "image_size": [
+    224,
+    224
+  ],
+  "num_classes": 6,
+  "classes": [
+    "Centella Asiatica",
+    "Coccinia Grandis",
+    "Eclipta Prostrata",
+    "Mikania Micrantha",
+    "Murraya koenigii",
+    "Stephania Japonica"
+  ],
+  "class_to_idx": {
+    "Centella Asiatica": 0,
+    "Coccinia Grandis": 1,
+    "Eclipta Prostrata": 2,
+    "Mikania Micrantha": 3,
+    "Murraya koenigii": 4,
+    "Stephania Japonica": 5
+  },
+  "idx_to_class": {
+    "0": "Centella Asiatica",
+    "1": "Coccinia Grandis",
+    "2": "Eclipta Prostrata",
+    "3": "Mikania Micrantha",
+    "4": "Murraya koenigii",
+    "5": "Stephania Japonica"
+  },
+  "batch_size": 16,
+  "epochs_trained": 30,
+  "random_seed": 42,
+  "training_date": "2026-09-18T13:14:03.807601",
+  "best_val_accuracy": 1.0,
+  "framework": "pytorch"
+}

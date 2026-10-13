@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <style>
+      .paper { fill: #fdfcf8; }
+      .ink { fill: #262c37; font-family: 'Segoe Script','Bradley Hand','Comic Sans MS',cursive; }
+      .rx { fill: #4b5563; font-family: 'Segoe Script','Bradley Hand',cursive; font-style: italic; }
+      .line { stroke: #e2e8f0; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect class="paper" width="800" height="1000" rx="18"/>
+  <rect x="0" y="0" width="800" height="34" rx="18" fill="#eef2f7"/>
+  <circle cx="90" cy="56" r="4" fill="#cbd5e1"/>
+  <g class="line">
+    <line x1="70" y1="140" x2="730" y2="140"/>
+    <line x1="70" y1="200" x2="730" y2="200"/>
+    <line x1="70" y1="260" x2="730" y2="260"/>
+    <line x1="70" y1="320" x2="730" y2="320"/>
+    <line x1="70" y1="380" x2="730" y2="380"/>
+    <line x1="70" y1="440" x2="730" y2="440"/>
+    <line x1="70" y1="500" x2="730" y2="500"/>
+    <line x1="70" y1="560" x2="730" y2="560"/>
+    <line x1="70" y1="620" x2="730" y2="620"/>
+    <line x1="70" y1="680" x2="730" y2="680"/>
+    <line x1="70" y1="740" x2="730" y2="740"/>
+    <line x1="70" y1="800" x2="730" y2="800"/>
+  </g>
+  <text class="rx" x="110" y="125" font-size="64" transform="rotate(-5 110 125)">Rx</text>
+  <text class="ink" x="230" y="118" font-size="30">Dr. R. Nimali Fernando</text>
+  <text class="ink" x="230" y="156" font-size="20" opacity="0.75">City General Hospital</text>
+  <text class="ink" x="120" y="216" font-size="24">Patient: Amara Silva, 45 yrs</text>
+  <text class="ink" x="120" y="276" font-size="24">Rx No: RX-003</text>
+  <text class="ink" x="430" y="276" font-size="24">Date: 06/09/2026</text>
+  <text class="ink" x="120" y="400" font-size="26">1. Tab. Metformin 500 mg</text>
+  <text class="ink" x="150" y="452" font-size="22" opacity="0.9">twice daily with meals for 30 days</text>
+  <text class="ink" x="120" y="580" font-size="26">2. Cap. Omeprazole 20 mg</text>
+  <text class="ink" x="150" y="632" font-size="22" opacity="0.9">once daily before breakfast for 14 days</text>
+  <text class="ink" x="515" y="800" font-size="28" transform="rotate(-4 515 800)">Dr. R. Nimali Fernando</text>
+  <path d="M180 822 q62 -22 122 4" stroke="#64748b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,3 @@
+"""
+Medicine AI Application Package.
+"""

@@ -1,0 +1,93 @@
+# ==========================================
+# Medicine AI - .gitignore
+# ==========================================
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+secrets/
+
+# Keep example templates
+!.env.example
+!backend/.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Frontend build & dependencies
+node_modules/
+dist/
+dist-ssr/
+.vite/
+Medicine/node_modules/
+Medicine/dist/
+*.local
+
+# Database & SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & test caches
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Datasets (Large bulk image datasets > 3 GB - See DATASETS.md)
+datasets/
+ml_training/data/leaf_processed/
+
+# Preserve essential metadata JSON and JS data files
+!ml_training/data/medicinal_plants_metadata.json
+!ml_training/data/frontend_plants_data.js

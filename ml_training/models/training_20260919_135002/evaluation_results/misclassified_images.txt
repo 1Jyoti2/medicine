@@ -1,0 +1,44 @@
+================================================================================
+MISCLASSIFIED IMAGES REPORT
+================================================================================
+
+Total Misclassifications: 5
+
+List of Misclassified Images:
+--------------------------------------------------------------------------------
+
+1. Coccinia Grandis (78).jpg
+   True Label: Coccinia Grandis
+   Predicted: Centella Asiatica
+   Confidence: 0.5687
+   True Class Prob: 0.3335
+   Full Path: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed\test\Coccinia Grandis\Coccinia Grandis (78).jpg
+
+2. Coccinia Grandis (96).jpg
+   True Label: Coccinia Grandis
+   Predicted: Centella Asiatica
+   Confidence: 0.5707
+   True Class Prob: 0.3650
+   Full Path: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed\test\Coccinia Grandis\Coccinia Grandis (96).jpg
+
+3. Eclipta Prostrata (13).jpg
+   True Label: Eclipta Prostrata
+   Predicted: Centella Asiatica
+   Confidence: 0.5511
+   True Class Prob: 0.4448
+   Full Path: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed\test\Eclipta Prostrata\Eclipta Prostrata (13).jpg
+
+4. Eclipta Prostrata (2).jpg
+   True Label: Eclipta Prostrata
+   Predicted: Murraya koenigii
+   Confidence: 0.5955
+   True Class Prob: 0.3599
+   Full Path: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed\test\Eclipta Prostrata\Eclipta Prostrata (2).jpg
+
+5. Murraya koenigii (146).jpg
+   True Label: Murraya koenigii
+   Predicted: Mikania Micrantha
+   Confidence: 0.3627
+   True Class Prob: 0.2970
+   Full Path: C:\Users\Harshu\Desktop\Medicine\ml_training\data\leaf_processed\test\Murraya koenigii\Murraya koenigii (146).jpg
+

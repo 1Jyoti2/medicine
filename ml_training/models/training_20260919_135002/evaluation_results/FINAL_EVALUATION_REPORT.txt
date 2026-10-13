@@ -1,0 +1,50 @@
+================================================================================
+FINAL MODEL VALIDATION REPORT
+================================================================================
+
+Evaluation Date: 2026-09-21 11:57:43
+Training Date: 2026-09-21T11:39:14.103519
+
+MODEL INFORMATION
+--------------------------------------------------------------------------------
+Model Path: C:\Users\Harshu\Desktop\Medicine\ml_training\models\training_20260919_135002\final_model.pth
+Model Type: mobilenet_v2
+Number of Classes: 6
+Classes: Centella Asiatica, Coccinia Grandis, Eclipta Prostrata, Mikania Micrantha, Murraya koenigii, Stephania Japonica
+
+DATASET INFORMATION
+--------------------------------------------------------------------------------
+Test Images: 169
+Training Images: N/A
+Validation Images: N/A
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Test Accuracy: 0.9704 (97.04%)
+Precision (Macro): 0.9666
+Recall (Macro): 0.9733
+F1-Score (Macro): 0.9690
+Precision (Weighted): 0.9724
+Recall (Weighted): 0.9704
+F1-Score (Weighted): 0.9705
+
+DATA INTEGRITY
+--------------------------------------------------------------------------------
+Data Leakage Check: PASSED ✅
+Duplicate Images: NONE ✅
+Split Integrity: VERIFIED ✅
+
+EVALUATION STATUS
+--------------------------------------------------------------------------------
+Correct Predictions: 164/169
+Incorrect Predictions: 5/169
+Evaluation Status: COMPLETED ✅
+
+INFERENCE READINESS
+--------------------------------------------------------------------------------
+Ready for Inference: YES ✅
+
+
+================================================================================
+END OF REPORT
+================================================================================
